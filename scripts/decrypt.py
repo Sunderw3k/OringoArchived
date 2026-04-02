@@ -32,7 +32,7 @@ with open(args.input, "rb") as f:
 
 decrypted = []
 for index, byte in enumerate(data):
-	transformed_byte = (byte - (args.code * index)) % 256
+	transformed_byte = (byte - (-args.code * index)) % 256
 
 	decrypted_byte = transformed_byte - running_key[index % len(running_key)]
 	if decrypted_byte < 0:
