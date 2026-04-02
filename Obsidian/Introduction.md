@@ -13,11 +13,9 @@ The backend is down, the discord bot is down, so I want to share the semi-cracke
 This vault will also be a write-up, which I did not write back then. Something I started doing recently is PROPERLY writing the protocols down, so this is proper homage to the client.
 
 ## My Backup
-I have a loader from November 25 2024, and a client jar from November 27 2024.
+I have a loader from November 25th 2024, and a client jar from January 13th 2024.
 
-TODO: Latest is from January 13 2025, diff them.
-
-I have a BUNCH of net jars from Nov 27th, but they're all the same thing. To get the actual jar you can use the decryptor from `scripts/decrypt.py` on `0_465`; the left side is the solved code.
+I have a BUNCH of net jars from Nov 27th, but they're all the same thing. To get the actual jar, you can use the decryptor from `scripts/decrypt.py` on `0_465`; the left side is the solved code.
 
 ## Auth
 As we probably all know by now, oringo was netloaded. 
