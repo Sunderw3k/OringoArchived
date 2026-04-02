@@ -41,8 +41,7 @@ keytool -gencert \
   -storepass changeit \
   -infile server.csr \
   -outfile server-cert.pem \
-  -rfc \
-  -ext "SAN=dns:shiyu.moe"
+  -rfc
 
 keytool -importcert \
   -alias root \
